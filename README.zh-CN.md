@@ -213,6 +213,7 @@
    ```console
    $ codesign -f -s "foobar" /Applications/Navicat\ Premium.app/
    ```
+   (在这绕了点弯路，跟着其他博客没创建好签名证书。查看本机签名证书命令 security find-identity -v -p codesigning )
 
 6. 接下来使用`navicat-keygen`来生成 __序列号__ 和 __激活码__。
 
